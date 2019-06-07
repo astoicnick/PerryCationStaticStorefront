@@ -27,13 +27,21 @@
     <nav id="navsticky" class="site-header sticky-top py-1">
         <div class="d-flex flex-column flex-md-row justify-content-between">
             <a href="index.html" class="py-2 Perrycation">PerryCation</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Learning Platform</a>
+            <!-- <div class="dropdown"> -->
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Degree Programs
+                </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Architecture</a>
+                        <a class="dropdown-item" href="#">Computer Science</a>
+                        <a class="dropdown-item" href="#">Education</a>
+                </div>
+            <!-- </div> -->
+            <a class="py-2 d-none d-md-inline-block" href="#">Class Structure</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Degree Breakdown</a>
             <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
         </div>
     </nav>
     <div class="row">
@@ -64,9 +72,16 @@
             </div>
         </div>
     </div>
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx auto text-center pricetext">
-        <h1 class="display-4">Cost Of Your Degree</h1>
-        <p class="lead">Obtain a higher education for next to nothing!</p>
+    <div class="row pricingrow">
+        <div class="col-4">
+            <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx auto text-center pricetext">
+                <h1 class="display-4">Cost Of Your Degree</h1>
+                <p class="lead">Obtain a higher education for next to nothing!</p>
+            </div>
+        </div>
+        <div class="col-8">
+            <img src="assets/perrycationcost.png" alt="">
+        </div>
     </div>
     <div id="Pricing" class="card-deck mb-3 text-center">
         <div class="card mb-4 shadow-sm">
@@ -110,7 +125,7 @@
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">
                     $75
-                    <small class="text-muted">If Done In 18 mo</small>
+                    <small class="text-muted">\ mo If Done In 18 mo</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                     <li>Fast Paced, Rigorous Curriculum</li>
