@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    background-color: rgb(0, 162, 255);
+}
+.pricetext{
+    color: rgb(0, 162, 255);
+}
+#navsticky {
+background-color: rgba(58, 58, 54, 0.85);
+opacity: 100%;
+margin: 0;
+padding: 0;
+}
+#navsticky a{
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+#navsticky a:hover{
+    color: rgb(104, 194, 247);
+    text-decoration: none;
+}
+.Perrycation{
+    font-weight: 50px;
+    font-size: 30px;
+}
+#whole {
+    background-color: rgb(225, 231, 238);
+}
+.carousel {
+    margin: 0;
+    height: 80%;
+    width: 100%;
+}
+.carousel-indicators li {
+    background-color: #669966;
+  }
+  .carousel-indicators .active {
+    background-color: rgb(0, 162, 255);
+  }
