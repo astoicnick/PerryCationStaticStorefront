@@ -12,7 +12,11 @@ button{
     padding: 0px;
     height: 100%;
     padding-left: 4px;
-    margin-top: 17px;
+    margin-top: 19px;
+}
+#carousel {
+    margin-bottom: 100px;
+    height: 500px;
 }
 /* .card-body{
     padding: 0px;
@@ -24,7 +28,8 @@ button{
     margin: 0 auto;
 }
 .col{
-    margin: 0 auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     padding: 3px;
 }
 .dropdown-menu{
@@ -98,7 +103,6 @@ padding: 0;
 }
 .carousel {
     margin: 0;
-    height: 80%;
     width: 100%;
 }
 .carousel-indicators li {
