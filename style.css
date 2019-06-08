@@ -14,6 +14,19 @@ button{
     padding-left: 4px;
     margin-top: 17px;
 }
+/* .card-body{
+    padding: 0px;
+} */
+#pricing {
+    margin: auto;
+}
+.row{
+    margin: 0 auto;
+}
+.col{
+    margin: 0 auto;
+    padding: 3px;
+}
 .dropdown-menu{
     background-color: rgba(58, 58, 54, 0.85);
     opacity: 100%;
@@ -26,7 +39,9 @@ button{
     background-color: rgba(58, 58, 54, 0.85);
 }
 .dropdown-toggle{
+    border: none;
     color: rgb(104, 194, 247);
+    background-color: rgba(58, 58, 54, 0);
 }
 .dropdown btn{
     color: rgb(104, 194, 247);
@@ -41,14 +56,14 @@ dropdown-toggle{
     margin: 0px auto;
 }
 .col-8 img{
-    width: 92%;
-    height: 87%;
-    border-radius: 20px;
+    width: 100%;
+    height: 91%;
+    border-radius: 10px;
     border-width: 10px;
     border-color: rgba(58, 58, 54, 0.85);
 }
 .pricingrow { 
-    border-radius: 20px;
+    border-radius: 10px;
     border-width: 10px;
     border-color: rgba(58, 58, 54, 0.85);
     padding-bottom: 0px;
@@ -78,7 +93,7 @@ padding: 0;
 }
 #whole {
     padding: 0px;
-    margin: 0px;
+    margin: 0px auto    ;
     background-color: rgb(225, 231, 238);
 }
 .carousel {
