@@ -89,6 +89,9 @@ padding: 0;
 }
 #navsticky a:hover{
     color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 15px;
     background-color: rgba(58, 58, 54, 0.85);
     text-decoration: none;
 }
